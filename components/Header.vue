@@ -10,6 +10,9 @@
       <li>
         <nuxt-link to="/education">Education</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/socials">Socials</nuxt-link>
+      </li>
     </ul>
   </nav>
 </template>
