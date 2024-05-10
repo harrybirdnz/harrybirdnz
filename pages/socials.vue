@@ -1,39 +1,39 @@
 <template>
-  <div class="h-screen bg-[#36454F]">
-    <div class="grid grid-flow-col grid-cols-6 gap-4 h-full items-center">
+  <div class="min-h-screen bg-[#36454F]">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full w-2/3 mx-auto pt-16"
+    >
       <NuxtLink
         to="https://www.facebook.com/harrybirdnz/"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >Facebook</NuxtLink
       >
       <NuxtLink
-        to="https://www.instagram.com/harrybirdnz/?hl=en"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
-        >Instagram</NuxtLink
-      >
-      <NuxtLink
         to="https://www.strava.com/athletes/37472905"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >Strava</NuxtLink
       >
       <NuxtLink
         to="https://www.linkedin.com/in/harry-bird/"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >LinkedIn</NuxtLink
       >
       <NuxtLink
-        to="https://www.goodreads.com/user/show/169982064-harry-bird"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
-        >Goodreads</NuxtLink
+        to="https://github.com/harrybirdnz"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
+        >Github</NuxtLink
       >
       <NuxtLink
-        to="https://letterboxd.com/harrybirdnz/"
-        class="border border-black bg-zinc-50 rounded-xl p-5"
-        >Letterboxd</NuxtLink
+        to="/HarryBirdCV-20240510.pdf"
+        external
+        target="_blank"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
+        >Resume</NuxtLink
       >
+
+      <hr
+        class="my-4 border-dotted border-black fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
+      />
     </div>
-    <hr
-      class="my-4 border-dotted border-black fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
-    />
   </div>
 </template>

@@ -1,6 +1,8 @@
 <template>
-  <div class="h-screen bg-[#36454F]">
-    <div class="grid grid-flow-col grid-cols-5 gap-4 h-full items-center">
+  <div class="min-h-screen bg-[#36454F]">
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full w-2/3 mx-auto pt-16"
+    >
       <div class="border border-black bg-zinc-50 rounded-xl p-5">
         <h2 class="font-medium">Te Horo School</h2>
         <h3>2007 - 2014</h3>
@@ -27,8 +29,5 @@
         <p>I am now studying a master of data science</p>
       </div>
     </div>
-    <hr
-      class="my-4 border-dotted border-black fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
-    />
   </div>
 </template>
