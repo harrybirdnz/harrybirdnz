@@ -28,6 +28,21 @@ console.log(route.path);
           >Socials</nuxt-link
         >
       </li>
+      <li>
+        <nuxt-link
+          to="/posts"
+          :class="{ 'text-red-500': route.path.includes('/posts') }"
+          >Posts</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link to="http://media.harrybird.nz/web/#/login.html"
+          >Media</nuxt-link
+        >
+      </li>
+      <li>
+        <nuxt-link to="http://storage.harrybird.nz">Storage</nuxt-link>
+      </li>
     </ul>
   </nav>
 </template>
