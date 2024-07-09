@@ -18,6 +18,11 @@
           <NuxtLink to="https://unraid.net/product" class="underline"
             >Unraid</NuxtLink
           >
+          <p>
+            Ok So Unraid is a whole operating system in itself, looks like it's
+            very good at operating NAS, but if you want to do anything outside
+            those confines, better to just be running Ubuntu server
+          </p>
         </li>
         <li>
           Expand storage and seed
