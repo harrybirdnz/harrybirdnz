@@ -6,6 +6,9 @@
       <NuxtLink to="/posts/home-server" class="p-4 bg-white rounded-xl"
         >Home Server Project</NuxtLink
       >
+      <NuxtLink to="/posts/project-ideas" class="p-4 bg-white rounded-xl"
+        >Future ideas</NuxtLink
+      >
     </div>
   </div>
 </template>
