@@ -9,6 +9,9 @@
       <NuxtLink to="/posts/project-ideas" class="p-4 bg-white rounded-xl"
         >Future ideas</NuxtLink
       >
+      <NuxtLink to="/posts/sensor-data" class="p-4 bg-white rounded-xl"
+        >Sensor Data</NuxtLink
+      >
     </div>
   </div>
 </template>

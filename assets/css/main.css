@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .table-heading {
+    @apply px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider;
+  }
+  .h-remaining {
+    /* Use 'calc()' to subtract other elements' height from 100vh */
+    height: calc(100vh - 100px);
+  }
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  p {
+    @apply py-2;
+  }
+}
