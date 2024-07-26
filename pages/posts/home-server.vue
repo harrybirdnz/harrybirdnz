@@ -2,6 +2,7 @@
   <div class="h-screen bg-[#36454F] flex justify-center">
     <div class="bg-white p-8 shadow-lg rounded w-4/5 mt-20 h-min">
       <h1 class="font-medium text-2xl underline">Home Server Project</h1>
+      <p>Current Temp: {{ data.slice(-1)[0].temperature }}° Celsius</p>
       <div class="max-w-full max-h-full">
         <Line :data="chartData" :options="chartOptions" />
       </div>
