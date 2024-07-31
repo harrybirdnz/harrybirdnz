@@ -12,6 +12,9 @@
       <NuxtLink to="/posts/sensor-data" class="p-4 bg-white rounded-xl"
         >Sensor Data</NuxtLink
       >
+      <NuxtLink to="/posts/recipes/enchiladas" class="p-4 bg-white rounded-xl"
+        >Enchilada Recipe</NuxtLink
+      >
     </div>
   </div>
 </template>
