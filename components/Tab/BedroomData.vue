@@ -74,9 +74,9 @@ function changeTab(tab) {
 </script>
 
 <template>
-  <h1 class="font-medium text-2xl underline">Bedroom Temperature</h1>
+  <h2 class="font-medium text-xl underline">Bedroom Temperature</h2>
   <p>Current Temp: {{ data.slice(-1)[0].temperature }}° Celsius</p>
-  <div class="max-w-full max-h-full flex border flex-wrap">
+  <div class="max-w-full max-h-full flex flex-wrap">
     <div class="flex sm:flex-col gap-3">
       <button
         @click="changeTab('past_24')"
