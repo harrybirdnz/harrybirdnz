@@ -33,7 +33,7 @@ const tabs = ref({
 });
 
 let selected = ref({});
-selected.value = data;
+selected.value = past_24;
 const MAX_DATA_POINTS = 100;
 const chartData = computed(() => {
   const totalPoints = selected.value.length;
