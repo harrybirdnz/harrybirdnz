@@ -40,9 +40,6 @@ console.log(route.path);
           >Media</nuxt-link
         >
       </li>
-      <li>
-        <nuxt-link to="http://storage.harrybird.nz">Storage</nuxt-link>
-      </li>
     </ul>
   </nav>
 </template>
