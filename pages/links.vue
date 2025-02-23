@@ -30,6 +30,13 @@
         >Mechanical Engineering Degree</NuxtLink
       >
       <NuxtLink
+        to="/UNSW_Transcript.pdf"
+        external
+        target="_blank"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
+        >UNSW Transcript (Feb 2025)</NuxtLink
+      >
+      <NuxtLink
         to="/Engineering_Transcript.pdf"
         external
         target="_blank"
