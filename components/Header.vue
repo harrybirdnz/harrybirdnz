@@ -10,13 +10,17 @@ console.log(route.path);
     >
       <li class="font-bold">Harry Bird</li>
       <li>
-        <nuxt-link to="/" :class="{ 'text-red-500': route.path === '/' }"
+        <nuxt-link
+          to="/"
+          class="font-montserrat"
+          :class="{ 'text-red-500': route.path === '/' }"
           >Home</nuxt-link
         >
       </li>
       <li>
         <nuxt-link
           to="/education"
+          class="font-montserrat"
           :class="{ 'text-red-500': route.path === '/education' }"
           >Education</nuxt-link
         >
@@ -24,6 +28,7 @@ console.log(route.path);
       <li>
         <nuxt-link
           to="/socials"
+          class="font-montserrat"
           :class="{ 'text-red-500': route.path === '/socials' }"
           >Socials</nuxt-link
         >
@@ -31,13 +36,9 @@ console.log(route.path);
       <li>
         <nuxt-link
           to="/posts"
+          class="font-montserrat"
           :class="{ 'text-red-500': route.path.includes('/posts') }"
           >Posts</nuxt-link
-        >
-      </li>
-      <li>
-        <nuxt-link to="http://media.harrybird.nz/web/#/login.html"
-          >Media</nuxt-link
         >
       </li>
     </ul>

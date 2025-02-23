@@ -1,10 +1,8 @@
-<script setup>
-import { createClient } from '@supabase/supabase-js';
-</script>
+<script setup></script>
 
 <template>
-  <div class="h-screen bg-[#36454F] flex justify-center">
-    <div class="bg-white p-8 shadow-lg rounded w-4/5 mt-20 h-min">
+  <div class="bg-[#36454F] flex justify-center">
+    <div class="bg-white p-8 m-10 shadow-lg rounded w-4/5 mt-20 h-min">
       <h1 class="font-medium text-2xl underline pb-6">Home Server Project</h1>
       <h2>1.0 Introduction</h2>
       <p>

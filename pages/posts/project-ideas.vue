@@ -4,6 +4,7 @@
       <h1 class="font-medium text-2xl underline">Ideas</h1>
       <ul class="list-disc pt-5 pl-5">
         <li>Self host this website</li>
+        <li>I need to be more financial. more capitalist</li>
       </ul>
     </div>
   </div>

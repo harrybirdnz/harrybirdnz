@@ -6,14 +6,8 @@
       <NuxtLink to="/posts/home-server" class="p-4 bg-white rounded-xl"
         >Home Server Project</NuxtLink
       >
-      <NuxtLink to="/posts/project-ideas" class="p-4 bg-white rounded-xl"
-        >Future ideas</NuxtLink
-      >
-      <NuxtLink to="/posts/sensor-data" class="p-4 bg-white rounded-xl"
-        >Sensor Data</NuxtLink
-      >
-      <NuxtLink to="/posts/recipes/enchiladas" class="p-4 bg-white rounded-xl"
-        >Enchilada Recipe</NuxtLink
+      <NuxtLink to="/posts/portfolio-website" class="p-4 bg-white rounded-xl"
+        >Portfolio Website</NuxtLink
       >
     </div>
   </div>

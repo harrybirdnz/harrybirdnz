@@ -4,22 +4,14 @@
       class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full w-2/3 mx-auto pt-16"
     >
       <NuxtLink
-        to="https://www.facebook.com/harrybirdnz/"
-        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
-        >Facebook</NuxtLink
-      >
-      <NuxtLink
-        to="https://www.strava.com/athletes/37472905"
-        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
-        >Strava</NuxtLink
-      >
-      <NuxtLink
         to="https://www.linkedin.com/in/harry-bird/"
+        target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >LinkedIn</NuxtLink
       >
       <NuxtLink
         to="https://github.com/harrybirdnz"
+        target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >Github</NuxtLink
       >
