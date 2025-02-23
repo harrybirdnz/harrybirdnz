@@ -36,6 +36,13 @@
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
         >University of Canterbury Transcript</NuxtLink
       >
+      <NuxtLink
+        to="/NZQA_Transcript.pdf"
+        external
+        target="_blank"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
+        >NZQA (High School) Transcript</NuxtLink
+      >
 
       <hr
         class="my-4 border-dotted border-black fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
