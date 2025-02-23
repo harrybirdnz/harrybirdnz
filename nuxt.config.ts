@@ -1,15 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     '@nuxtjs/supabase',
     '@nuxtjs/google-fonts',
   ],
+
   supabase: {
     redirect: false,
   },
+
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
     config: {
@@ -27,10 +30,13 @@ export default defineNuxtConfig({
       },
     },
   },
+
   googleFonts: {
     families: {
       'Architects Daughter': true,
       Montserrat: true,
     },
   },
+
+  compatibilityDate: '2025-02-24',
 });

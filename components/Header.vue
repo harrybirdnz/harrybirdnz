@@ -27,10 +27,10 @@ console.log(route.path);
       </li>
       <li>
         <nuxt-link
-          to="/socials"
+          to="/links"
           class="font-montserrat"
-          :class="{ 'text-red-500': route.path === '/socials' }"
-          >Socials</nuxt-link
+          :class="{ 'text-red-500': route.path === '/links' }"
+          >Links</nuxt-link
         >
       </li>
       <li>
