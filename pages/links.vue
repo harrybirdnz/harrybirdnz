@@ -16,7 +16,7 @@
         >Github</NuxtLink
       >
       <NuxtLink
-        to="/CV/CV.pdf"
+        to="/docs/CV.pdf"
         external
         target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
