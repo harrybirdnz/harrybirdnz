@@ -16,7 +16,7 @@
         >Github</NuxtLink
       >
       <NuxtLink
-        to="/docs/CV.pdf"
+        to="/cv/main.pdf"
         external
         target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
@@ -27,21 +27,28 @@
         external
         target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
-        >Mechanical Engineering Degree</NuxtLink
+        >Bachelor of Mechanical Engineering Degree</NuxtLink
       >
       <NuxtLink
         to="/UNSW_Transcript.pdf"
         external
         target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
-        >UNSW Transcript (Feb 2025)</NuxtLink
+        >Master of Data Science Transcript</NuxtLink
+      >
+      <NuxtLink
+        to="/UNSW_Degree.pdf"
+        external
+        target="_blank"
+        class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
+        >Master of Data Science Testamur</NuxtLink
       >
       <NuxtLink
         to="/Engineering_Transcript.pdf"
         external
         target="_blank"
         class="border border-black bg-zinc-50 rounded-xl p-5 hover:underline hover:font-medium"
-        >University of Canterbury Transcript</NuxtLink
+        >Bachelor of Mechanical Engineering Transcript</NuxtLink
       >
       <NuxtLink
         to="/NZQA_Transcript.pdf"

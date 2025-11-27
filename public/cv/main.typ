@@ -21,7 +21,7 @@
 #custom-title("Education")[
   #education-heading(
     "University of New South Wales", "Sydney, Australia",
-    "Master of Data Science", "",
+    "Master of Data Science (with Excellence)", "",
     datetime(year: 2024, month: 1, day: 1),
     datetime(year: 2025, month: 10,  day: 1)
   )[
